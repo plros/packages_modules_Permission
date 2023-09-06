@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Project Lineage Remix Open Source
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="scopes_list_is_full">Daftar cakupan penuh</string>
+    <string name="scopes_menu_item_turn_off">Nonaktifkan</string>
+    <string name="scopes_btn_remove_scope">Hapus</string>
+
+    <!-- Same labels as the ones in Settings -> Special app access -> {"All files access", "Media management apps"} -->
+    <string name="sscopes_manage_external_storage_request">Izinkan akses &lt;b>%1$s&lt;/b> untuk mengelola semua file?</string>
+    <string name="sscopes_manage_media_request">Izinkan &lt;b>%1$s&lt;/b> untuk mengelola media?</string>
+
+    <string name="grant_dialog_button_allow_in_settings">Izinkan (di Setelan)</string>
+    <string name="setup_storage_scopes">Siapkan Cakupan Penyimpanan</string>
+
+    <string name="sscopes">Cakupan Penyimpanan</string>
+    <string name="overriden_by_sscopes">Ditimpa oleh Cakupan Penyimpanan</string>
+    <string name="sscopes_folders">Folder</string>
+    <string name="sscopes_files">File</string>
+    <string name="sscopes_btn_add_folder">Tambahkan folder</string>
+    <string name="sscopes_btn_add_file">Tambahkan file</string>
+    <string name="sscopes_btn_add_image">Tambahkan gambar</string>
+    <string name="sscopes_main_storage">Penyimpanan internal</string>
+
+    <string name="sscopes_unknown_location">Cakupan tidak ditemukan</string>
+
+    <string name="sscopes_enable">Gunakan Cakupan Penyimpanan</string>
+
+    <string name="sscopes_disabled_footer">
+"Menggunakan Cakupan Penyimpanan akan membuat aplikasi ini berasumsi mempunyai semua perizinan penyimpanan yang diminta, meski kenyataannya tidak demikian.
+
+Aplikasi yang tidak mempunyai perizinan penyimpanan masih bisa membuat file dan mengaksesnya, terlepas dari penggunaan Cakupan Penyimpanan."
+    </string>
+    <string name="sscopes_empty_footer">
+"Aplikasi ini berasumsi mempunyai semua perizinan penyimpanan yang diminta, terlepas dari kenyataannya demikian atau tidak.
+
+Aplikasi yang tidak mempunyai perizinan penyimpanan masih bisa membuat file dan mengaksesnya, terlepas dari penggunaan Cakupan Penyimpanan.
+
+Secara opsional, Anda dapat memberikan akses ke file dan folder tambahan seperti file dan folder yang tidak dibuat oleh aplikasi ini."
+    </string>
+
+    <string name="sscopes_shared_uid_warning">
+"Perhatikan bahwa
+%1$s
+adalah satu aplikasi yang sama. Status Cakupan Penyimpanan diterapkan secara bersama, sesuai seperti pemberian izin, penggunaan data jaringan, dll."
+    </string>
+
+    <string name="sscopes_storage_permissions_revoked">Seluruh perizinan penyimpanan telah ditolak</string>
+
+    <string name="contact_scopes">Cakupan Kontak</string>
+    <string name="setup_contact_scopes">Siapkan Cakupan Kontak</string>
+
+    <string name="cscopes_enable">Gunakan Cakupan Kontak</string>
+    <string name="overriden_by_cscopes">Ditimpa oleh Cakupan Kontak</string>
+    <string name="cscopes_toast_all_contacts_permissions_denied">Perizinan kontak telah ditolak</string>
+    <string name="cscopes_turn_off">Nonaktifkan</string>
+
+    <string name="cscopes_btn_add_label">Tambahkan label</string>
+    <string name="cscopes_btn_add_contact">Tambahkan kontak</string>
+    <string name="cscopes_btn_add_number">Tambahkan nomor</string>
+    <string name="cscopes_btn_add_email">Tambahkan email</string>
+
+    <string name="cscopes_labels">Label</string>
+    <string name="cscopes_contacts">Kontak</string>
+    <string name="cscopes_numbers">Nomor</string>
+    <string name="cscopes_emails">Email</string>
+
+    <string name="cscope_group_open">Buka</string>
+    <string name="cscope_group_add_to_scopes">Tambahkan ke daftar cakupan</string>
+
+    <string name="cscope_btn_remove">Hapus</string>
+
+    <string name="cscope_missing_item">Item tidak ditemukan, ID %1$s</string>
+
+    <string name="cscopes_pick_label">Pilih label</string>
+    <string name="cscopes_create_label">Buat label</string>
+
+    <string name="cscopes_toast_contacts_app_not_found">Aplikasi kontak tidak ditemukan</string>
+    <plurals name="cscopes_toast_unknown_scope">
+        <item quantity="one">Cakupan %1$s tidak ditemukan</item>
+        <item quantity="other">Beberapa cakupan tidak ditemukan: %1$s</item>
+    </plurals>
+    <string name="cscopes_toast_already_added">Cakupan sudah ada</string>
+
+    <string name="cscopes_disabled_footer">
+"Menggunakan Cakupan Kontak akan membuat aplikas ini berasumsi mempunyai perizinan kontak, meski kenyataannya tidak demikian.
+
+Aplikasi ini tidak dapat mengakses kontak atau membuat kontak baru."
+    </string>
+    <string name="cscopes_empty_footer">
+"Aplikasi ini tidak dapat mengakses kontak atau membuat kontak baru (kecuali jika Anda memberi izin kontak dengan cara lain).
+
+Secara opsional, Anda dapat mengizinkan aplikasi ini untuk hanya membaca data kontak, kontak atau grup kontak secara spesifik."
+    </string>
+
+    <string name="cscopes_settings">Setelan</string>
+    <string name="cscopes_settings_dismiss">Tutup</string>
+    <string name="cscopes_allow_custom_contacts_app">Gunakan aplikasi kontak khusus untuk memilih cakupan</string>
+
+    <string name="cscopes_allow_contacts_permission_blocked_msg">Nonaktifkan Cakupan Kontak sebelum memberi perizinan kontak</string>
+</resources>
